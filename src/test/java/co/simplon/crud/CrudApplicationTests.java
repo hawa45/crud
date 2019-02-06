@@ -29,8 +29,8 @@ public class CrudApplicationTests {
 	@Before
 	public void before()
 	{
-		//populator.clean();
-		//populator.demoData();
+		populator.clean();
+		populator.demoData();
 	}
 	
 
@@ -42,7 +42,7 @@ public class CrudApplicationTests {
 	@Test
 	public void whatever()
 	{
-		populator.clean();
+		//populator.clean();
 	}
 	
 	@Test
